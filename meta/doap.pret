@@ -1,0 +1,19 @@
+# This file contains general metadata about the project.
+
+@prefix : <http://usefulinc.com/ns/doap#>.
+
+`Sub-Infix`
+	:programming-language "Perl" ;
+	:shortdesc            "create a fake infix operator";
+	:homepage             <https://metacpan.org/release/Sub-Infix>;
+	:download-page        <https://metacpan.org/release/Sub-Infix>;
+	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=Sub-Infix>;
+	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/p5-sub-infix> ];
+	:created              2013-05-13;
+	:license              <http://dev.perl.org/licenses/>;
+	:maintainer           cpan:TOBYINK;
+	:developer            cpan:TOBYINK.
+
+<http://dev.perl.org/licenses/>
+	dc:title  "the same terms as the perl 5 programming language system itself".
+
