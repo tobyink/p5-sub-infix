@@ -3,6 +3,7 @@
 `Sub-Infix`
 	perl_version_from m`Sub::Infix`;
 	version_from      m`Sub::Infix`;
-	readme_from       m`Sub::Infix` ;
+	readme_from       m`Sub::Infix`;
+	test_requires     p`Test::Fatal`;
 	.
 
