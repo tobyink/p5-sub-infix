@@ -4,3 +4,8 @@
 	issued  2013-05-13;
 	label   "Initial release".
 
+`Sub-Infix 0.002 cpan:TOBYINK`
+	issued  2013-05-20;
+	changeset [
+		item "test_requires Test::Fatal"^^Packaging;
+	].

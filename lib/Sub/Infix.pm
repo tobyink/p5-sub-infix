@@ -6,7 +6,7 @@ use warnings;
 
 BEGIN {
 	$Sub::Infix::AUTHORITY = 'cpan:TOBYINK';
-	$Sub::Infix::VERSION   = '0.001';
+	$Sub::Infix::VERSION   = '0.002';
 }
 
 use base "Exporter";
