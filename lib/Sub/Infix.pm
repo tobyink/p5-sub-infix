@@ -9,7 +9,8 @@ BEGIN {
 	$Sub::Infix::VERSION   = '0.002';
 }
 
-use base "Exporter";
+use Exporter ();
+our @ISA    = qw( Exporter );
 our @EXPORT = qw( infix );
 
 sub infix (&)
