@@ -1,9 +1,6 @@
 # This file provides instructions for packaging.
 
 `Sub-Infix`
-	perl_version_from m`Sub::Infix`;
-	version_from      m`Sub::Infix`;
-	readme_from       m`Sub::Infix`;
-	test_requires     p`Test::Fatal`;
-	.
+	deps:test-requirement [ deps:on "Test::More 0.96"^^deps:CpanId ];
+	deps:test-requirement [ deps:on "Test::Fatal"^^deps:CpanId ].
 

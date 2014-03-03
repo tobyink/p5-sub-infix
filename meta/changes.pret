@@ -14,4 +14,5 @@
 	issued  2014-03-03;
 	changeset [
 		item "Don't use base.pm."^^Change;
+		item "use Dist::Inkt."^^Packaging;
 	].
