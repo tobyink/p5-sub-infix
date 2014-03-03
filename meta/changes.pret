@@ -7,5 +7,11 @@
 `Sub-Infix 0.002 cpan:TOBYINK`
 	issued  2013-05-20;
 	changeset [
-		item "test_requires Test::Fatal"^^Packaging;
+		item "test_requires Test::Fatal."^^Packaging;
+	].
+
+`Sub-Infix 0.003 cpan:TOBYINK`
+	issued  2014-03-03;
+	changeset [
+		item "Don't use base.pm."^^Change;
 	].
