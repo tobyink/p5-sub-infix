@@ -16,3 +16,9 @@
 		item "Don't use base.pm."^^Change;
 		item "use Dist::Inkt."^^Packaging;
 	].
+
+`Sub-Infix 0.004 cpan:TOBYINK`
+	issued  2014-07-02;
+	changeset [
+		item "Backport to Perl 5.6."^^Change;
+	].

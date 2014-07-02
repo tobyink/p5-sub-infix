@@ -6,7 +6,7 @@ package Sub::Infix;
 
 BEGIN {
 	$Sub::Infix::AUTHORITY = 'cpan:TOBYINK';
-	$Sub::Infix::VERSION   = '0.003';
+	$Sub::Infix::VERSION   = '0.004';
 }
 
 use Exporter ();
