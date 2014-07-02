@@ -22,7 +22,7 @@ the same terms as the Perl 5 programming language system itself.
 
 use strict;
 use warnings;
-use Test::More;
+use Test::More tests => 10;
 use Test::Fatal;
 
 use Sub::Infix;
@@ -91,6 +91,3 @@ like(
 	qr{^\>\>infix\<\< not supported},
 	'exception for weird usage (B)',
 );
-
-done_testing;
-
