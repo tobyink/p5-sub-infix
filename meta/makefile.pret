@@ -1,6 +1,7 @@
 # This file provides instructions for packaging.
 
 `Sub-Infix`
-	deps:test-requirement [ deps:on "Test::More 0.96"^^deps:CpanId ];
-	deps:test-requirement [ deps:on "Test::Fatal"^^deps:CpanId ].
+	deps:runtime-requirement [ deps:on "perl 5.006"^^deps:CpanId ];
+	deps:test-requirement    [ deps:on "Test::More 0.96"^^deps:CpanId ];
+	deps:test-requirement    [ deps:on "Test::Fatal"^^deps:CpanId ].
 
