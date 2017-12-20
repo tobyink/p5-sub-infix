@@ -129,12 +129,12 @@ operator that can be used like this:
 Instead, the operator needs to be wrapped with real Perl operators in
 one of three ways:
 
-   my $five = 2 |plus| 3;
    my $five = 2 /plus/ 3;
    my $five = 2 <<plus>> 3;
+   my $five = 2 |plus| 3;
 
 The advantage of this is that it gives you three different levels of
-operator precedence.
+operator precedence (decreasing order in the example above).
 
 You can also call the function a slightly less weird way:
 
